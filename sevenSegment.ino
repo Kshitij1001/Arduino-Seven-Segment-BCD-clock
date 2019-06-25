@@ -26,7 +26,7 @@ void loop(){
       for(;c<6;c++){
         for(;i<10;i++){
           disp(0,i);disp(1,c);disp(2,b);disp(3,a);
-          delay(100);                            // 1 minute delay
+          delay(60000);                            // 1 minute delay
           if(b==4 and a==2){
             a=0;b=0;c=0;
           }
